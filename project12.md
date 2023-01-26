@@ -140,9 +140,10 @@
 3. on our branch (refactor) create a folder and name it 'webserver'
 
 - The directory structure should look like this.
+
 ![alt text](./directory%20structure.PNG)
 
-3. Update your inventory ansible-config-mgt/inventory/uat.yml file with IP addresses of your 2 UAT Web servers
+-  Update your inventory ansible-config-mgt/inventory/uat.yml file with IP addresses of your 2 UAT Web servers
 
 `[uat-webservers]`
 `Web1-UAT-Server-Private-IP-Address` `ansible_ssh_user='ec2-user'`
